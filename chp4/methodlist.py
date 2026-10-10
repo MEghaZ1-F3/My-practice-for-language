@@ -1,0 +1,12 @@
+friend = ["apple","banana",5,0.5,False,"NONI"]
+print(friend)
+friend.append("Megha")
+print(friend)
+friend.insert(1,8)
+print(friend)
+friend.pop(1)
+print(friend)
+friend.reverse()
+print(friend)
+friend.remove("banana")
+print(friend)
