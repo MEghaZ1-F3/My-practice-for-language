@@ -1,0 +1,18 @@
+t = []
+
+t1 = int(input("Enter student marks: "))
+t.append(t1)
+t2 = int(input("Enter student marks: "))
+t.append(t2)
+t3 = int(input("Enter student marks: "))
+t.append(t3)
+t4 = int(input("Enter student marks: "))
+t.append(t4)
+t5 = int(input("Enter student marks: "))
+t.append(t5)
+t6 = int(input("Enter fruinte name: "))
+t.append(t6)
+
+# print(t)
+# t.sort()
+print(t.sort())
