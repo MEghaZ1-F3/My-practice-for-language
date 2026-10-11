@@ -1,0 +1,15 @@
+y ={}
+Name = input("Enter key as Name: ")
+lang = input("Enter value as fav language: ")
+y.update({Name:lang})
+Name = input("Enter key as Name: ")
+lang = input("Enter value as fav language: ")
+y.update({Name:lang})
+Name = input("Enter key as Name: ")
+lang = input("Enter value as fav language: ")
+y.update({Name:lang})
+Name = input("Enter key as Name: ")
+lang= input("Enter value as fav language: ")
+y.update({Name:lang})
+
+print(y,type(y))
