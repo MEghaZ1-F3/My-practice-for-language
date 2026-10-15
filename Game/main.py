@@ -1,4 +1,5 @@
-computer = -1
+import random
+computer = random.choice([-1, 0, 1])
 youstr = input("Enter your choice: ")
 youDict = {"s": 1, "w": -1, "g": 0}
 reverseDict = {1: "Snake", -1 : "water", 0 : "Gun"}
