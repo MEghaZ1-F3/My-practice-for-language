@@ -1,4 +1,4 @@
-st = " Hey u r Amjad"
+st = " Hey u r Amjad khan"
 
 f = open("myfile.text", "a")
 
