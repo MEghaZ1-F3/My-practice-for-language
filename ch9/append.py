@@ -1,7 +1,7 @@
-st = " Hey u r Amjad khan"
+sty = " Hey u r Amjad khan and yours"
 
 f = open("myfile.text", "a")
 
-f.write(st)
+f.write(sty)
 
 f.close()
