@@ -10,3 +10,7 @@ class Calculator:
     def squareroot(self):
         print(f" The squreroot of {self.n} : {self.n**1/2}")
 
+w= Calculator(5)
+w.square()
+w.qube()
+w.squareroot()
