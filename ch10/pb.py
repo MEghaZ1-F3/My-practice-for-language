@@ -6,4 +6,4 @@ class programmer:
         self.pin = pin
 
 t = programmer("Afjat",288999,497001)
-print(t.name,t.salary,t.pin)
+print(t.name,t.salary,t.pin,t.compony)
