@@ -5,6 +5,7 @@ class Employee:
     def show(cls):
         print(f"The class attrubite of s is {cls.s}")
 t = Employee()
-s = 57
 
-print(t.s)
+t.s = 57
+
+t.show()
