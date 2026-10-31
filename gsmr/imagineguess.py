@@ -7,10 +7,10 @@ while (t!= a):
     t = int(input("Guess the number: "))
 
     if (a>t):
-        print(f"inter greater number ")
+        print(f"Higher number please")
 
 
     elif (a<t):
-        print("inter lower number")
+        print(" lower number please")
     else:
         print(f"You guess the right number {a}")
