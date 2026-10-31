@@ -10,3 +10,7 @@ while (t!= a):
         print(f"inter greater number ")
 
 
+    elif (a<t):
+        print("inter lower number")
+    else:
+        print(f"You guess the right number {a}")
