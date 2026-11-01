@@ -1,7 +1,7 @@
 import random
 
 h = random.randint(1,100)
-t = 0
+k = 0
 guesses = 0
 while (t!= a):
     t = int(input("Guess the number: "))
