@@ -6,14 +6,14 @@ guesses = 0
 while (h!= k):
     k = int(input("Guess the number: "))
 
-    if (a>k):
+    if (h>k):
         print(f"Higher number please")
         guesses +=1
 
 
-    elif (a<t):
+    elif (h<k):
         print(" lower number please")
         guesses +=1
 
 
-print(f"You guess the right number {a} in {guesses} attempts")
+print(f"You guess the right number {h} in {guesses} attempts")
