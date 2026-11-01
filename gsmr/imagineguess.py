@@ -4,9 +4,9 @@ h = random.randint(1,100)
 k = 0
 guesses = 0
 while (h!= k):
-    t = int(input("Guess the number: "))
+    k = int(input("Guess the number: "))
 
-    if (a>t):
+    if (a>k):
         print(f"Higher number please")
         guesses +=1
 
