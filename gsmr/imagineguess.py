@@ -1,4 +1,3 @@
-import random
 
 h = random.randint(1,100)
 k = 0
