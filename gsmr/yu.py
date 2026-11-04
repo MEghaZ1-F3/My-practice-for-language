@@ -1,21 +1,21 @@
-while (h!= k):
-    k = int(input("Guess the number is: "))
+import random
 
-    if (h>k):
+y = random.randint(1,100)
+t = 0
+guesses = 0
+while (y!= t):
+    t = int(input("Guess the number is: "))
+
+    if (y>t):
         print(f"Higher number please ")
         guesses +=1
 
 
-    elif (h<k):
+    elif (y<t):
         print(" lower number please ")
-        guesses +=1while (h!= k):
-    k = int(input("Guess the number is: "))
-
-    if (h>k):
-        print(f"Higher number please ")
         guesses +=1
 
 
-    elif (h<k):
+    elif (t<y):
         print(" lower number please ")
         guesses +=1
