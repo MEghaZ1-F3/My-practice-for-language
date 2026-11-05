@@ -1,4 +1,4 @@
-import random
+
 
 y = random.randint(1,100)
 t = 0
