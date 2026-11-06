@@ -16,4 +16,7 @@ while (y!= t):
         guesses +=1
 
 
+    elif (t<y):
+        print(" lower number please ")
         guesses +=1
+print(f"You guess the right number {h} in {guesses} attempts")
