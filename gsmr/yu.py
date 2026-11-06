@@ -16,6 +16,4 @@ while (y!= t):
         guesses +=1
 
 
-    elif (t<y):
-        print(" lower number please ")
         guesses +=1
