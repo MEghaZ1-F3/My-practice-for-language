@@ -16,3 +16,4 @@ while (h!= k):
         guesses +=1
 
 
+print(f"You guess the right number {h} in {guesses} attempts")
