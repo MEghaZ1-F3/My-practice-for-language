@@ -1,6 +1,6 @@
-a = int(input("Enter a number: "))
+a = int(input("Enter a number here: "))
 
-b = int(input("Enter second number: "))
+b = int(input("Enter second number here: "))
 
 if (b== 0):
     raise ZeroDivisionError("hey our program is not meant to divide number by zero and sp on")
