@@ -1,0 +1,3 @@
+from  tude import myfunc
+
+
