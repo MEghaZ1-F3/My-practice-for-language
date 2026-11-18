@@ -22,5 +22,12 @@ while True:
         print("Listening...")
         audio = r.listen(src)
 
-
+    # recognize speech using Sphinx
+    try:
+        commands = r.recognize_sphinx(audio)
+        print(commands)
+    except Ak.UnknownValueError:
+        print("Sphinx could not understand audio")
+    except Ak.RequestError as e:
+        print("Sphinx error; {0}".format(e))
 
