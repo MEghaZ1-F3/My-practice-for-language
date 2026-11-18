@@ -15,6 +15,12 @@ def speak(text):
 if __name__ == "__main__":
     speak("Hello, your assistance")
 
+while True:
+        # obtain audio from the microphone
+    r = Ak.Recognizer()
+    with Ak.Microphone() as src:
+        print("Listening...")
+        audio = r.listen(src)
 
 
 
