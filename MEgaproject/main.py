@@ -32,5 +32,5 @@ while True:
         print("Sphinx error; {0}".format(e))
 
     if "stop" in commands or "exit" in commands or "band karo" in commands:
-        speak("Goodbye! Assistant band ho raha hai.")
+        speak("Goodbye! .")
         break
