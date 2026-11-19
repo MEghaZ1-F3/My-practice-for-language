@@ -17,13 +17,13 @@ if __name__ == "__main__":
 
 while True:
         # obtain audio from the microphone
-    with Ak.Microphone() as src:
-        print("Listening...")
-        audio = R.listen(src,timeout=2,phrase_time_limit=2)
 
     # recognize speech using
     commands = ""
     try:
+        with Ak.Microphone() as src:
+            print("Listening...")
+            audio = R.listen(src,timeout=2,phrase_time_limit=2)
         commands = R.recognize_google(audio)
         print(commands)
     except Ak.UnknownValueError:
