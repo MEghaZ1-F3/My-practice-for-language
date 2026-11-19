@@ -31,6 +31,6 @@ while True:
     except Ak.RequestError as e:
         print("Google error; {0}".format(e))
 
-    if "stop" in commands or "exit" in commands :
+    if "only stop" in commands or "exit from terminal" in commands :
         speak("Goodbye! .")
         break
