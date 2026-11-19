@@ -22,9 +22,9 @@ while True:
         print("Listening...")
         audio = r.listen(src)
 
-    # recognize speech using Sphinx
+    # recognize speech using
     try:
-        commands = r.recognize_sphinx(audio)
+        commands = r.recognize_google(audio)
         print(commands)
     except Ak.UnknownValueError:
         print("Sphinx could not understand audio")
