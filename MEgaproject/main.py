@@ -26,6 +26,8 @@ while True:
     try:
         commands = r.recognize_google(audio)
         print(commands)
+    except Ak.UnknownValueError:
+        print("Google Speech Recognition could not understand audio")
     except Ak.RequestError as e:
         print("Google error; {0}".format(e))
 
