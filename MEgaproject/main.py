@@ -19,6 +19,7 @@ while True:
         # obtain audio from the microphone
 
     # recognize speech using
+    print("recognizing")
     commands = ""
     try:
         with Ak.Microphone() as src:
