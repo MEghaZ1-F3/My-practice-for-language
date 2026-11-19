@@ -26,7 +26,7 @@ while True:
             audio = R.listen(src,timeout=2,phrase_time_limit=2)
         commands = R.recognize_google(audio)
         if(commands == "Megha"):
-            
+            speak("yes")
 
     except Ak.UnknownValueError:
         print("Google Speech Recognition could not understand audio")
