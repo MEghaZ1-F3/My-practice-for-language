@@ -4,7 +4,7 @@ import pyttsx3
 
 
 
-recognizer = Ak.Recognizer()
+R = Ak.Recognizer()
 
 bol = pyttsx3.init()
 
@@ -17,14 +17,14 @@ if __name__ == "__main__":
 
 while True:
         # obtain audio from the microphone
-    r = Ak.Recognizer()
     with Ak.Microphone() as src:
         print("Listening...")
-        audio = r.listen(src)
+        audio = R.listen(src,timeout=2)
 
     # recognize speech using
+    commands = ""
     try:
-        commands = r.recognize_google(audio)
+        commands = R.recognize_google(audio)
         print(commands)
     except Ak.UnknownValueError:
         print("Google Speech Recognition could not understand audio")
