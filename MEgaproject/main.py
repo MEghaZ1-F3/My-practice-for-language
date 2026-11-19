@@ -19,7 +19,7 @@ while True:
         # obtain audio from the microphone
     with Ak.Microphone() as src:
         print("Listening...")
-        audio = R.listen(src,timeout=2)
+        audio = R.listen(src,timeout=2,phrase_time_limit=2)
 
     # recognize speech using
     commands = ""
