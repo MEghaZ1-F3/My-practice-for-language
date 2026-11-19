@@ -27,12 +27,12 @@ while True:
             print("Listening...")
             audio = R.listen(src)
         word = R.recognize_google(audio)
-        if(word.lower == "Megha"):
+        if(word.lower() == "Megha"):
             speak("yes")
-        with Ak.Microphone() as src:
-            print("Activated...")
-            audio = R.listen(src)
-            commands = R.recognize_google(audio)
+            with Ak.Microphone() as src:
+                print("Activated...")
+                audio = R.listen(src)
+                commands = R.recognize_google(audio)
     except Ak.UnknownValueError:
         print("Google Speech Recognition could not understand audio")
     except Ak.RequestError as e:
