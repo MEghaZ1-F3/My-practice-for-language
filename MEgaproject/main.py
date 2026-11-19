@@ -26,8 +26,6 @@ while True:
     try:
         commands = r.recognize_google(audio)
         print(commands)
-    except Ak.UnknownValueError:
-        print("Sphinx could not understand audio")
     except Ak.RequestError as e:
         print("Sphinx error; {0}".format(e))
 
