@@ -32,5 +32,5 @@ while True:
         print("Google error; {0}".format(e))
 
     if "only stop" in commands or "exit from terminal" in commands :
-        speak("Goodbye! .")
+        speak("Goodbye! i am going .")
         break
