@@ -6,14 +6,14 @@ import pyttsx3
 
 recognizer = Ak.Recognizer()
 
-engine = pyttsx3.init()
+bol = pyttsx3.init()
 
 def speak(text):
-    engine.say(text)
-    engine.runAndWait()
+    bol.say(text)
+    bol.runAndWait()
 
 if __name__ == "__main__":
-    speak("Hello, your assistance")
+    speak("Hello,I M Rabta")
 
 while True:
         # obtain audio from the microphone
