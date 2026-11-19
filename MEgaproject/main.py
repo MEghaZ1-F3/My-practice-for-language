@@ -27,7 +27,7 @@ while True:
         commands = r.recognize_google(audio)
         print(commands)
     except Ak.RequestError as e:
-        print("Sphinx error; {0}".format(e))
+        print("Google error; {0}".format(e))
 
     if "stop" in commands or "exit" in commands or "band karo" in commands:
         speak("Goodbye! .")
